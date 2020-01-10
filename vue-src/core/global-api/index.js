@@ -17,7 +17,9 @@ import {
   defineReactive
 } from '../util/index'
 
-export function initGlobalAPI (Vue: GlobalAPI) {
+// 这个方法用于初始化 vue 对象的全局属性和方法 
+export function initGlobalAPI(Vue: GlobalAPI) {
+
   // config
   const configDef = {}
   configDef.get = () => config
